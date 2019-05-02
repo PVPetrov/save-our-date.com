@@ -1,12 +1,15 @@
 import React from 'react';
+import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
 
-import './style.sass';
+import './App.css';
 
 const App = () => (
-  <div>
-    <h2>React Boilerplate</h2>
-    <h4>Here&#39;s a surfing dog!</h4>
-    <img src="/dist/images/surfingdog.jpg" alt="Surfing Dog" />
+  <div className="app-container">
+    <Header />
+    <Main />
+    <Footer />
   </div>
 );
 

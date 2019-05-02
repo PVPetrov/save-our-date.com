@@ -1,0 +1,21 @@
+main{
+  flex: 1 1 auto;
+  display: flex;
+  position: relative;
+
+}
+
+main:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/dist/images/white-rose.jpg');
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-position: center center;
+  opacity: 0.5;
+  z-index: -1;
+}

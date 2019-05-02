@@ -52,6 +52,8 @@
   "author": "PVPetrov",
   "license": "MIT",
   "dependencies": {
+    "antd": "^3.16.6",
+    "babel-plugin-import": "^1.11.0",
     "express": "^4.16.4",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

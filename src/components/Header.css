@@ -1,0 +1,51 @@
+header{
+  position: sticky;
+  top: 0;
+  min-height: 64px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(18, 32, 81);
+  /* background-image: url('https://i.ytimg.com/vi/o2Hdu3b0Oa0/maxresdefault.jpg'); */
+  box-shadow: 1px 5px 25px rgba(18, 32, 81, 0.5);
+}
+
+header div.container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: white;
+}
+
+.logo h2{
+  font-size: 2em;
+  margin: 0 0 0 1em;
+  cursor: pointer;
+}
+
+
+header div nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  color: white;
+  padding: 1em;
+}
+
+a.link:link, a.link:hover, a.link:active, a.link:visited {
+  text-decoration: none;
+  color: #eee;
+  padding: 1em;
+}
+
+.nav-link{
+  text-transform: uppercase;
+}
+
+a.link:hover{
+ color: #bbb;
+}
