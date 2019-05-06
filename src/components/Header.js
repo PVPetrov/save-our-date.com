@@ -27,12 +27,8 @@ NavLinkTab.propTypes = {
 const Header = () => (
   <header>
     <div className="container wrapper">
-      <div className="logo">
-        <Link className="link" to="/home">
-          <h2 className="tangerine">Siiak - Petrov Wedding</h2>
-        </Link>
-      </div>
-      <nav>
+      <NavLink className="link tangerine" to="/home">Siiak - Petrov Wedding</NavLink>
+      <nav className="boxy">
         {routes.map(el => <NavLinkTab key={el.to} link={el} />)}
       </nav>
     </div>

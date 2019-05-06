@@ -12,7 +12,7 @@ main:after {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url('/dist/images/white-rose.jpg');
+  background-image: url('/images/white-rose.jpg');
   background-repeat: no-repeat;
   background-origin: padding-box;
   background-position: center center;

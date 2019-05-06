@@ -1,6 +1,6 @@
 @font-face { font-family: 'Crete Round-Italic'; src: url('/fonts/Crete_Round/CreteRound-Italic.ttf'); } 
-@font-face { font-family: 'Crete Round'; src: url('/fonts/Crete_Round/CreteRound.ttf');}
-@font-face { font-family: 'Tangerine'; src: url('/fonts/Tangerine/Tangerine-Regular.ttf'); } 
+@font-face { font-family: 'Crete Round'; src: url('/fonts/Crete_Round/CreteRound-Regular.ttf');}
+@font-face { font-family: 'Tangerine'; font-size: 32px; src: url('/fonts/Tangerine/Tangerine-Regular.ttf'); } 
 @font-face { font-family: 'Tangerine-Bold'; font-weight: bold; src: url('/fonts/Tangerine/Tangerine-Bold.ttf');}
 
 html, body, #app{
@@ -17,6 +17,10 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Tangerine', cursive;
+}
+
+.boxy{
   font-family: 'Crete Round', serif;
 }
 
@@ -24,13 +28,20 @@ body {
   display: flex;
 }
 
-.tangerine{
+.tangerine, input.ant-select-search__field{
   font-family: 'Tangerine', cursive;
+  font-size: 32px !important;
+}
+
+.double{
+  font-size: 2em;
 }
 
 .wrapper{
   max-width: 1400px;
   margin: 0 auto;
+  min-height: 100%;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
