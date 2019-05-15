@@ -3,7 +3,7 @@ import React from 'react';
 import './Home.css';
 
 const Home = () => (
-  <div className="home tangerine">
+  <div className="home tangerine size-x">
     <h2>With great pleasure</h2>
     <h1>Grete-Merit and Petar</h1>
     <div className="hr" />

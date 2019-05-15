@@ -5,7 +5,7 @@ import { NavLink, Link } from 'react-router-dom';
 import './Header.css';
 
 const routes = [{
-  to: 'home',
+  to: '',
   name: 'Home'
 }, {
   to: 'rsvp',
@@ -27,7 +27,7 @@ NavLinkTab.propTypes = {
 const Header = () => (
   <header>
     <div className="container wrapper">
-      <NavLink className="link tangerine" to="/home">Siiak - Petrov Wedding</NavLink>
+      <NavLink id="logo-link" className="link tangerine size-x" to="/">Siiak - Petrov Wedding</NavLink>
       <nav className="boxy">
         {routes.map(el => <NavLinkTab key={el.to} link={el} />)}
       </nav>

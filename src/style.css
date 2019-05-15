@@ -30,10 +30,9 @@ body {
 
 .tangerine, input.ant-select-search__field{
   font-family: 'Tangerine', cursive;
-  font-size: 32px !important;
 }
 
-.double{
+.size-x{
   font-size: 2em;
 }
 
@@ -44,4 +43,17 @@ body {
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .size-x{
+    font-size: 1.25em;
+  } 
+
+  #logo-link{
+    display: none;
+  }
+
+  .ant-select-selection-selected-value, .ant-select-selection__placeholder{
+    font-size: 1.25em;
+  }
+}
 /*# sourceMappingURL=style.css.map */

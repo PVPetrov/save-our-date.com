@@ -9,7 +9,7 @@ import './Main.css';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path="/home" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/rsvp" component={Rsvp} />
       <Route path="/info" component={Info} />
     </Switch>

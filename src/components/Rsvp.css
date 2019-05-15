@@ -25,6 +25,13 @@
     height: auto;
 }
 
-.ant-select-selection-selected-value{
-    font-size: 28px;
+.ant-select-selection-selected-value, .ant-select-selection__placeholder{
+    font-size: 2em;
 }
+
+.ant-btn.tangerine.confirm-rsvp.ant-btn-lg{
+    font-size: 1.1em;
+    margin: 1em auto;
+}
+
+@media 

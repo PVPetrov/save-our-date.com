@@ -2,7 +2,7 @@ main{
   flex: 1 1 auto;
   display: flex;
   position: relative;
-
+  padding: 0 1em;
 }
 
 main:after {
@@ -18,12 +18,4 @@ main:after {
   background-position: center center;
   opacity: 0.5;
   z-index: -1;
-}
-
-.main-content-page{
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  bottom: 1em;
-  left: 1em;
 }
